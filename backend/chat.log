@@ -1,0 +1,282 @@
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T10:34:52.315Z"}
+{"level":"info","message":"Received question: tell me something about india biryani","timestamp":"2024-08-25T10:34:52.323Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T10:34:52.324Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":52},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":104}","timestamp":"2024-08-25T10:34:56.824Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T10:34:59.531Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T10:35:00.518Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T10:35:01.644Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T10:35:42.847Z"}
+{"level":"info","message":"Received question: tell me something about cricekt","timestamp":"2024-08-25T10:35:42.848Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T10:35:42.850Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":52},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":104}","timestamp":"2024-08-25T10:35:43.867Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T10:35:45.796Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T10:35:46.546Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T10:35:47.800Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T10:35:57.850Z"}
+{"level":"info","message":"Received question: tell me something about pakistan cricket","timestamp":"2024-08-25T10:35:57.851Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T10:35:57.852Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":104}","timestamp":"2024-08-25T10:35:58.881Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T10:36:00.713Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T10:36:01.386Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T10:36:04.674Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T10:39:09.714Z"}
+{"level":"error","message":"Error processing document Cannot read properties of undefined (reading 'document')","stack":"TypeError: Cannot read properties of undefined (reading 'document')\n    at exports.uploadDoc (D:\\Eulerbytes\\test-job\\rag-test\\Controllers\\chat.js:128:28)\n    at Layer.handle [as handle_request] (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\index.js:47:12)","timestamp":"2024-08-25T10:39:09.716Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T10:43:32.982Z"}
+{"level":"info","message":"File type: application/vnd.openxmlformats-officedocument.wordprocessingml.document","timestamp":"2024-08-25T10:43:32.990Z"}
+{"level":"error","message":"Error processing document this.filePathOrBlob.arrayBuffer is not a function","stack":"TypeError: this.filePathOrBlob.arrayBuffer is not a function\n    at DocxLoader.load (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\langchain\\dist\\document_loaders\\fs\\buffer.cjs:39:18)\n    at exports.uploadDoc (D:\\Eulerbytes\\test-job\\rag-test\\Controllers\\chat.js:144:32)\n    at Layer.handle [as handle_request] (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at Multipart.<anonymous> (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\multer\\lib\\make-middleware.js:166:7)\n    at Multipart.emit (node:events:520:28)\n    at emitCloseNT (node:internal/streams/destroy:148:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-08-25T10:43:32.992Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T10:46:51.458Z"}
+{"level":"info","message":"File type: application/vnd.openxmlformats-officedocument.wordprocessingml.document","timestamp":"2024-08-25T10:46:51.463Z"}
+{"code":"ENOENT","errno":-4058,"level":"error","message":"Error processing document ENOENT: no such file or directory, open 'D:\\Eulerbytes\\test-job\\rag-test\\uploads\\Brilliant IT Tech challenges.docx'","path":"D:\\Eulerbytes\\test-job\\rag-test\\uploads\\Brilliant IT Tech challenges.docx","stack":"Error: ENOENT: no such file or directory, open 'D:\\Eulerbytes\\test-job\\rag-test\\uploads\\Brilliant IT Tech challenges.docx'\n    at Object.openSync (node:fs:561:18)\n    at Object.writeFileSync (node:fs:2356:35)\n    at exports.uploadDoc (D:\\Eulerbytes\\test-job\\rag-test\\Controllers\\chat.js:144:8)\n    at Layer.handle [as handle_request] (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at Multipart.<anonymous> (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\multer\\lib\\make-middleware.js:166:7)\n    at Multipart.emit (node:events:520:28)\n    at emitCloseNT (node:internal/streams/destroy:148:10)","syscall":"open","timestamp":"2024-08-25T10:46:51.465Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T10:48:22.329Z"}
+{"level":"info","message":"File type: application/vnd.openxmlformats-officedocument.wordprocessingml.document","timestamp":"2024-08-25T10:48:22.336Z"}
+{"level":"error","message":"Error processing document Failed to load mammoth. Please install it with eg. `npm install mammoth`.","stack":"Error: Failed to load mammoth. Please install it with eg. `npm install mammoth`.\n    at DocxLoaderImports (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\@langchain\\community\\dist\\document_loaders\\fs\\docx.cjs:49:15)\n    at async DocxLoader.parse (D:\\Eulerbytes\\test-job\\rag-test\\node_modules\\@langchain\\community\\dist\\document_loaders\\fs\\docx.cjs:27:36)\n    at async exports.uploadDoc (D:\\Eulerbytes\\test-job\\rag-test\\Controllers\\chat.js:160:17)","timestamp":"2024-08-25T10:48:22.373Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T10:50:27.732Z"}
+{"level":"info","message":"File type: application/vnd.openxmlformats-officedocument.wordprocessingml.document","timestamp":"2024-08-25T10:50:27.737Z"}
+{"level":"info","message":"Processing file: Brilliant IT Tech challenges.docx","timestamp":"2024-08-25T10:50:28.257Z"}
+{"level":"info","message":"Document split into 4 chunks","timestamp":"2024-08-25T10:50:28.263Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T10:50:28.265Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T10:50:28.267Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T10:50:33.737Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T10:50:52.766Z"}
+{"level":"info","message":"Received question: What is the test challenge of node js or express ?","timestamp":"2024-08-25T10:50:52.767Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T10:50:52.769Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":56}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":108}","timestamp":"2024-08-25T10:50:53.575Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T10:50:55.391Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T10:50:56.189Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T10:50:57.857Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T10:51:29.217Z"}
+{"level":"info","message":"Received question: What is Technical Interview Task","timestamp":"2024-08-25T10:51:29.219Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T10:51:29.220Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":56}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":108}","timestamp":"2024-08-25T10:51:30.149Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T10:51:31.911Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T10:51:32.666Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T10:51:34.960Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T11:54:33.531Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T11:54:33.548Z"}
+{"level":"error","message":"Error processing document Failed to load pdf-parse. Please install it with eg. `npm install pdf-parse`.","stack":"Error: Failed to load pdf-parse. Please install it with eg. `npm install pdf-parse`.\n    at PDFLoader.PDFLoaderImports [as pdfjs] (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\node_modules\\@langchain\\community\\dist\\document_loaders\\fs\\pdf.cjs:138:15)\n    at async PDFLoader.parse (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\node_modules\\@langchain\\community\\dist\\document_loaders\\fs\\pdf.cjs:59:42)\n    at async exports.uploadDoc (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\Controllers\\chat.js:157:17)","timestamp":"2024-08-25T11:54:33.626Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T11:58:01.218Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T11:58:01.222Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T11:58:01.536Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T11:58:01.544Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T11:58:01.550Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T11:58:01.552Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T11:58:07.209Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T11:59:31.102Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T11:59:31.103Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T11:59:31.152Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T11:59:31.155Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T11:59:31.158Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T11:59:31.159Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T11:59:35.034Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T12:07:34.345Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T12:07:34.348Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T12:07:34.630Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T12:07:34.643Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T12:07:34.645Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T12:07:34.646Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T12:07:40.277Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T12:08:14.019Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T12:08:14.022Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T12:08:14.301Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T12:08:14.311Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T12:08:14.312Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T12:08:14.313Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T12:08:19.108Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T12:11:21.884Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T12:11:21.895Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T12:11:22.231Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T12:11:22.236Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T12:11:22.240Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T12:11:22.241Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T12:11:27.175Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:11:33.422Z"}
+{"level":"info","message":"Received question: hi","timestamp":"2024-08-25T12:11:33.423Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:11:33.423Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":86}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":138}","timestamp":"2024-08-25T12:11:34.472Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:11:35.969Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:11:36.926Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:11:37.987Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:12:11.365Z"}
+{"level":"info","message":"Received question: what is this?","timestamp":"2024-08-25T12:12:11.366Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:12:11.367Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":86}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":138}","timestamp":"2024-08-25T12:12:12.634Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:12:14.114Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:12:15.109Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:12:17.706Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:13:16.037Z"}
+{"level":"info","message":"Received question: what is this?","timestamp":"2024-08-25T12:13:16.037Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:13:16.038Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":86}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":138}","timestamp":"2024-08-25T12:13:17.668Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:13:19.113Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:13:20.095Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:13:22.174Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T12:22:56.331Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T12:22:56.335Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T12:22:56.665Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T12:22:56.669Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T12:22:56.671Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T12:22:56.674Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T12:23:02.257Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:23:10.131Z"}
+{"level":"info","message":"Received question: hi","timestamp":"2024-08-25T12:23:10.132Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:23:10.133Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":92},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":144}","timestamp":"2024-08-25T12:23:11.173Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:23:12.682Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:23:13.613Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:23:14.650Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:24:44.677Z"}
+{"level":"info","message":"Received question: What is this?","timestamp":"2024-08-25T12:24:44.678Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:24:44.678Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":92}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":144}","timestamp":"2024-08-25T12:24:46.304Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:24:47.427Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:24:48.376Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:24:50.320Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:26:04.013Z"}
+{"level":"info","message":"Received question: who is Albert Einstein?","timestamp":"2024-08-25T12:26:04.014Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:26:04.014Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":92},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":144}","timestamp":"2024-08-25T12:26:05.317Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:26:07.140Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:26:08.112Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:26:09.243Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:27:18.956Z"}
+{"level":"info","message":"Received question: who is Jorge?","timestamp":"2024-08-25T12:27:18.957Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:27:18.957Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":92}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":144}","timestamp":"2024-08-25T12:27:20.566Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:27:22.092Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:27:23.040Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:27:23.949Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T12:31:55.324Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T12:31:55.326Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T12:31:55.420Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T12:31:55.427Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T12:31:55.427Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T12:31:55.428Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T12:31:59.623Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:32:01.832Z"}
+{"level":"info","message":"Received question: who is jorge?","timestamp":"2024-08-25T12:32:01.833Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:32:01.833Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":92}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":144}","timestamp":"2024-08-25T12:32:02.208Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:32:02.737Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:32:03.787Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:32:04.906Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:33:36.429Z"}
+{"level":"info","message":"Received question: who is jorge?","timestamp":"2024-08-25T12:33:36.429Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:33:36.430Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":98}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":150}","timestamp":"2024-08-25T12:33:38.059Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:33:39.842Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:33:40.836Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:33:42.126Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:34:23.358Z"}
+{"level":"info","message":"Received question: who is jorge?","timestamp":"2024-08-25T12:34:23.359Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:34:23.359Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":98}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":150}","timestamp":"2024-08-25T12:34:24.357Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:34:25.906Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:34:26.850Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:34:28.084Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T12:38:36.427Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T12:38:36.431Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T12:38:36.724Z"}
+{"level":"info","message":"Document split into 6 chunks","timestamp":"2024-08-25T12:38:36.728Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T12:38:36.730Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T12:38:36.732Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T12:38:43.089Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:38:48.418Z"}
+{"level":"info","message":"Received question: who is albert einstein?","timestamp":"2024-08-25T12:38:48.419Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:38:48.419Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":104}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:38:49.730Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:38:51.277Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:38:52.210Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:38:53.399Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:44:30.951Z"}
+{"level":"info","message":"Received question: who is einstein?","timestamp":"2024-08-25T12:44:30.969Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:44:30.976Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":104},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:44:34.028Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:44:35.868Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:44:36.830Z"}
+{"level":"error","message":"Error processing question [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION","response":{"candidates":[{"finishReason":"RECITATION","index":0}],"usageMetadata":{"promptTokenCount":222,"totalTokenCount":222}},"stack":"Error: [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION\n    at response.text (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\node_modules\\@google\\generative-ai\\dist\\index.js:456:23)\n    at exports.questionAnswer (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\Controllers\\chat.js:112:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-25T12:44:40.403Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:47:42.488Z"}
+{"level":"info","message":"Received question: who is einstein?","timestamp":"2024-08-25T12:47:42.495Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:47:42.496Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":104}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:47:45.518Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:47:46.585Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:47:47.554Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:47:48.437Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:49:44.645Z"}
+{"level":"info","message":"Received question: who is einstein?","timestamp":"2024-08-25T12:49:44.650Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:49:44.651Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":104}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:49:47.644Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:49:49.416Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:49:50.419Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:49:51.829Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:51:53.372Z"}
+{"level":"info","message":"Received question: who is einstein?","timestamp":"2024-08-25T12:51:53.380Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:51:53.382Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":104}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:51:56.203Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:51:57.687Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:51:58.706Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:51:59.512Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:53:29.382Z"}
+{"level":"info","message":"Received question: who is einstein?","timestamp":"2024-08-25T12:53:29.388Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:53:29.412Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":104}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:53:32.132Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:53:33.680Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:53:34.664Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:53:35.714Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:55:28.423Z"}
+{"level":"info","message":"Received question: who is einstein?","timestamp":"2024-08-25T12:55:28.429Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:55:28.430Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52},\"euler-namespace\":{\"recordCount\":104}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:55:31.498Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:55:33.303Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:55:34.245Z"}
+{"level":"info","message":"[object Object],[object Object],[object Object]","timestamp":"2024-08-25T12:55:34.246Z"}
+{"level":"error","message":"Error processing question [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION","response":{"candidates":[{"finishReason":"RECITATION","index":0}],"usageMetadata":{"promptTokenCount":238,"totalTokenCount":238}},"stack":"Error: [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION\n    at response.text (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\node_modules\\@google\\generative-ai\\dist\\index.js:456:23)\n    at exports.questionAnswer (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\Controllers\\chat.js:113:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-25T12:55:35.550Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:55:47.693Z"}
+{"level":"info","message":"Received question: who is einstein?","timestamp":"2024-08-25T12:55:47.694Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:55:47.695Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":104},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:55:48.716Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:55:50.228Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:55:51.194Z"}
+{"level":"info","message":"[object Object],[object Object],[object Object]","timestamp":"2024-08-25T12:55:51.195Z"}
+{"level":"error","message":"Error processing question [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION","response":{"candidates":[{"finishReason":"RECITATION","index":0}],"usageMetadata":{"promptTokenCount":238,"totalTokenCount":238}},"stack":"Error: [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION\n    at response.text (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\node_modules\\@google\\generative-ai\\dist\\index.js:456:23)\n    at exports.questionAnswer (C:\\repos\\AI-chat-app\\test-backend-node-chatbot-main\\test-backend-node-chatbot-main\\Controllers\\chat.js:113:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-25T12:55:52.469Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:56:33.003Z"}
+{"level":"info","message":"Received question: what age did Albert Einstien died?","timestamp":"2024-08-25T12:56:33.010Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:56:33.011Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":104},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:56:35.704Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:56:37.254Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:56:38.201Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:56:39.032Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T12:57:40.812Z"}
+{"level":"info","message":"Received question: what age did Albert Einstien died and what was the reason?","timestamp":"2024-08-25T12:57:40.813Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T12:57:40.814Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":104},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T12:57:42.414Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T12:57:43.946Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T12:57:44.896Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T12:57:45.796Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T13:01:00.735Z"}
+{"level":"info","message":"Received question: what age did Albert Einstien died and what was the reason?","timestamp":"2024-08-25T13:01:00.738Z"}
+{"level":"info","message":"Searching in namespace: euler-namespace","timestamp":"2024-08-25T13:01:00.741Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":104},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":156}","timestamp":"2024-08-25T13:01:03.732Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T13:01:05.195Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T13:01:06.148Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T13:01:07.098Z"}
+{"level":"info","message":"Starting document upload process","timestamp":"2024-08-25T13:02:22.839Z"}
+{"level":"info","message":"File type: application/pdf","timestamp":"2024-08-25T13:02:22.846Z"}
+{"level":"info","message":"Processing file: JorgeBeatty.pdf","timestamp":"2024-08-25T13:02:23.252Z"}
+{"level":"info","message":"Document split into 24 chunks","timestamp":"2024-08-25T13:02:23.262Z"}
+{"level":"info","message":"Initializing Pinecone index: testing","timestamp":"2024-08-25T13:02:23.266Z"}
+{"level":"info","message":"Storing documents in Pinecone","timestamp":"2024-08-25T13:02:23.268Z"}
+{"level":"info","message":"Document processed and stored in Pinecone","timestamp":"2024-08-25T13:02:29.980Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T13:02:55.250Z"}
+{"level":"info","message":"Received question: what age did Albert Einstien died and what was the reason?","timestamp":"2024-08-25T13:02:55.254Z"}
+{"level":"info","message":"Searching in namespace: test-namespace","timestamp":"2024-08-25T13:02:55.256Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"test-namespace\":{\"recordCount\":24},\"euler-namespace\":{\"recordCount\":104},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":180}","timestamp":"2024-08-25T13:02:57.735Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T13:02:59.236Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T13:03:00.156Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T13:03:00.914Z"}
+{"level":"info","message":"Starting question answering process","timestamp":"2024-08-25T13:04:02.753Z"}
+{"level":"info","message":"Received question: what age did Albert Einstien died?","timestamp":"2024-08-25T13:04:02.754Z"}
+{"level":"info","message":"Searching in namespace: test-namespace","timestamp":"2024-08-25T13:04:02.755Z"}
+{"level":"info","message":"Pinecone index stats: {\"namespaces\":{\"euler-namespace\":{\"recordCount\":104},\"test-namespace\":{\"recordCount\":24},\"Pakistan national cricket team - Wikipedia.pdf\":{\"recordCount\":52}},\"dimension\":768,\"indexFullness\":0,\"totalRecordCount\":180}","timestamp":"2024-08-25T13:04:04.429Z"}
+{"level":"info","message":"Generated question embedding with length: 768","timestamp":"2024-08-25T13:04:06.195Z"}
+{"level":"info","message":"Found 3 relevant documents","timestamp":"2024-08-25T13:04:07.146Z"}
+{"level":"info","message":"Answer generated successfully","timestamp":"2024-08-25T13:04:07.895Z"}
